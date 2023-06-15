@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f92db2b6-8dce-4522-bd2b-87d8ee5e0ce6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/configuration/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/configuration/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/controller/PessoaFisicaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/controller/PessoaJuridicaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/controller/ProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/dto/PessoaFisicaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/dto/PessoaJuridicaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/dto/TelefoneDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/exception/ResponseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/exception/SistemaMessageCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/mapper/PessoaFisicaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/mapper/PessoaJuridicaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/mapper/ProdutoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/mapper/TelefoneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/model/PessoaJuridicaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/repository/PessoaFisicaReposiory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/repository/PessoaJuridicaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/service/PessoaFisicaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/service/PessoaJuridicaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/service/impl/PessoaFisicaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/service/impl/PessoaJuridicaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2vaProgWeb/src/main/java/br/weg/vaProgWeb/service/impl/ProdutoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/api-docs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/ng-openapi-gen.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/api-configuration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/api.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/base-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/models/field-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/models/message-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/models/produto-dados-alterar-dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/models/produto-dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/models/produto-lista-dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/request-builder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/services/produto-controller.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/api/strict-http-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/core/confirmation-dialog/confirmation-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/core/confirmation-dialog/confirmation-dialog.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/core/confirmation-dialog/confirmation-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/core/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/core/home/home.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/core/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/cadastroProduto-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/cadastroProduto.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/formProduto/formProduto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/formProduto/formProduto.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/formProduto/formProduto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/homeProduto/homeProduto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/homeProduto/homeProduto.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/homeProduto/homeProduto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/listProduto/listProduto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/listProduto/listProduto.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/app/pages/cadastroProduto/listProduto/listProduto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog-webum-produto-frontend/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/config/ApiSwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/config/ApiWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/exception/ApiRestResponseExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/exception/FieldResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/exception/InvalidParameterException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/exception/MessageCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/api/exception/MessageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/configuration/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/configuration/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/controller/ProdutoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/dto/ProdutoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/dto/ProdutoDadosAlterarDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/dto/ProdutoListaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/exception/ResponseExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/mapper/ProdutoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/model/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/repository/ProdutoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/service/ProdutoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/java/br/progweb/prog/webum/produto/service/impl/ProdutoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../prog.webum.produto/src/test/java/br/progweb/prog/webum/produto/ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2RAzy9BpIvfbDsE5qI1PJRH7HoT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f92db2b6-8dce-4522-bd2b-87d8ee5e0ce6" name="Changes" comment="" />
+      <created>1686707927534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686707927534</updated>
+      <workItem from="1686707929743" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
